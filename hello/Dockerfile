@@ -4,4 +4,4 @@ WORKDIR /app
 
 ADD . /app
 
-CMD node src/index.mjs
+CMD node index.mjs
