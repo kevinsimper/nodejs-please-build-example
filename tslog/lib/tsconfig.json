@@ -4,7 +4,8 @@
     "target": "ES2020",
     "declaration": true,
     "composite": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "rootDir": "./src"
   },
-  "include": ["src/**/*"]
+  "include": ["./src/**/*"]
 }
