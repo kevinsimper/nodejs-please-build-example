@@ -4,12 +4,6 @@ WORKDIR /app
 
 ADD . /app
 
-RUN npm i
+RUN cd lib && npm i
 
-RUN npx tsc
-
-RUN ls
-
-RUN ls src
-
-RUN ls dist
+RUN cd lib && npx tsc
