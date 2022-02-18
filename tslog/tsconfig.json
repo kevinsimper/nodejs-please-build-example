@@ -3,6 +3,7 @@
     "module": "ESNext",
     "target": "ES2020",
     "declaration": true,
+    "composite": true,
     "outDir": "./dist"
   },
   "include": ["src/**/*"]
