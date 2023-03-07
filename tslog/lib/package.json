@@ -2,7 +2,9 @@
   "name": "tslog",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "type": "module",
+  "main": "./dist/log.js",
+  "types": "./dist/log.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
